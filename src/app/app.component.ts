@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ey-angular';
+  //write the logic for our component
+  updateData(item){
+    console.log("Warning");
+    console.log(item);
+  }
+  
 }
